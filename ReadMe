@@ -1,0 +1,5 @@
+An application that allows you to get data from the Internet in the form of exchange rates by
+implementing the Retrofit library.
+Notes.
+The application crashes because I took the api of a random site and it turned out to be not so good,
+I apologize in advance if you know another site with an open api, use this
