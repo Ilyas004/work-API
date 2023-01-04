@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitInstance {
     private val retrofit by lazy {
         Retrofit.Builder()
-            .baseUrl("https://api.monobank.ua/") // input name server
+            .baseUrl("Input find api server") // input name server
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
